@@ -14,6 +14,7 @@ const Header = () => {
             <li>Projects</li>
             <li>Skills</li>
             <li>Contact</li>
+            <li>Prueba</li>
           </ul>
         </div>
       </nav>
