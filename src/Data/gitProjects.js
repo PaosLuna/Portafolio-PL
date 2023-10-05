@@ -45,7 +45,7 @@ export const misProyectos = [
   },
   {
     id: 6,
-    name: "Chat with your files",
+    name: "Chat with files",
     image: "src/assets/Images/chatFiles.jpg",
     description:
       "Chatbot con la habilidad de contestar preguntas basadas en la información de un documento",
