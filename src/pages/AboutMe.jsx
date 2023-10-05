@@ -5,15 +5,15 @@ import contexto from "../assets/Images/contexto.png";
 const AboutMe = () => {
   return (
     <div>
-      <div className="flex flex-col bg-black h-screen w-screen">
+      <div className="flex flex-col min-h-screen bg-black w-screen">
         <Header />
-        <div className="flex  p-5">
-          <div className="w-[35%] p-10 flex justify-center">
-            <img src={fotoCard} alt="foto" className="w-[390px] h-auto" />
+        <div className="flex p-10">
+          <div className="w-[40%] p-2 flex justify-center">
+            <img src={fotoCard} alt="foto" className="w-[340px] h-auto" />
           </div>
           <div className="w-[65%] flex flex-col justify-center items-center">
-            <img src={contexto} alt="titulo" className="w-[600px] h-auto" />
-            <p className="text-white font-mono text-xl text-justify mt-10 w-[90%] p-10">
+            <img src={contexto} alt="titulo" className="w-[500px]" />
+            <p className="text-white font-mono text-xl text-justify mt-5 w-[90%] p-10">
               👩‍💻 Iniciando en el mundo IT, emocionada por aprender y mejorar
               cada día. <br />
               <br /> 🗣️ Con un background en Comunicación, me encanta encontrar
