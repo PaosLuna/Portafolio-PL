@@ -9,7 +9,7 @@ const Header = () => {
       </div>
       <nav className="w-full flex items-center justify-end">
         <div>
-          <ul className="flex flex-row gap-10 p-2 pr-40 text-white font-mono uppercase text-xl cursor-pointer">
+          <ul className="flex flex-row gap-10 p-2 pr-20 text-white font-mono uppercase text-xl cursor-pointer">
             <Link to="/">HOME</Link>
             <Link to="/about-me">About me</Link>
             <Link to="/projects">projects</Link>

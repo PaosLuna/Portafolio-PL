@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
       <Routes>
         <Route element={<Home />} path="/"></Route>
