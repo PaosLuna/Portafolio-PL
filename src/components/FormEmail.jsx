@@ -16,9 +16,9 @@ const FormEmail = () => {
         <img
           src={mail}
           alt="Contactame"
-          className="h-auto w-[70%] mt-20 mb-10"
+          className="h-auto w-[70%] mt-10 mb-8"
         />
-        <p className="font-mono text-xl text-center">
+        <p className="font-mono text-2xl text-center w-[75%]">
           Estoy emocionada por la oportunidad de contribuir y aprender en tu
           equipo de desarrollo.
         </p>
@@ -29,11 +29,11 @@ const FormEmail = () => {
           cols="50"
           value="lunapp20@gmail.com"
           onChange={(e) => setTextToCopy(e.target.value)}
-          className="text-white w-50 max-h-10 bg-gray-800 flex text-center font-mono font-extrabold text-2xl"
+          className="text-white w-72 max-h-12 bg-gray-800 flex text-center font-mono font-extrabold text-2xl pt-2"
         ></textarea>
         <button
           onClick={handleCopyClick}
-          className="bg-gray-800 w-20 h-10 uppercase text-lg font-mono font-extrabold hover:bg-[#F6D922] hover:text-black"
+          className="bg-gray-800 w-20 h-12 uppercase text-lg font-mono font-extrabold hover:bg-[#F6D922] hover:text-black"
         >
           Copiar
         </button>

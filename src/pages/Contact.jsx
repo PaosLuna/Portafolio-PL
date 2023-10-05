@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="flex flex-col bg-black h-screen w-screen text-white">
       <Header />
       <div className="flex ">
-        <div className="flex flex-col gap-20 w-[30%] ml-40 mt-40">
+        <div className="flex flex-col gap-20 w-[30%] ml-40 mt-28">
           <a
             href="https://www.linkedin.com/in/paola-luna-frontend/"
             target="_blank"
