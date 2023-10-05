@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col bg-black h-screen w-screen text-white">
+    <div className="flex flex-col bg-black min-h-screen max-w-full text-white pb-4">
       <Header />
       <div className="flex ">
         <div className="flex flex-col gap-20 w-[30%] ml-40 mt-28">

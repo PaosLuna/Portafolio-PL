@@ -5,7 +5,7 @@ import contexto from "../assets/Images/contexto.png";
 const AboutMe = () => {
   return (
     <div>
-      <div className="flex flex-col min-h-screen bg-black w-screen">
+      <div className="flex flex-col min-h-screen bg-black max-w-screen">
         <Header />
         <div className="flex p-10">
           <div className="w-[40%] p-2 flex justify-center">
