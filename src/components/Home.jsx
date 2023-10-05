@@ -1,4 +1,5 @@
 import logo from "../assets/Images/logo.png";
+import hola from "../assets/Images/hola.png";
 import FunButton from "./ButtonActive";
 
 const Home = () => {
@@ -8,9 +9,7 @@ const Home = () => {
         <img src={logo} alt="logo Paola Luna" className="w-[75%]" />
       </div>
       <div className="w-[45%] flex flex-col justify-center items-center gap-10 pr-10">
-        <h1 className="font-custom text-5xl tracking-[10px] font-bold text-[#22D6F6]">
-          ¡HOLA!
-        </h1>
+        <img src={hola} alt="logo Paola Luna" className="w-[75%]" />
         <p className="text-justify font-mono text-xl">
           Soy una Front-End Developer recién salida del empaque, mi viaje en el
           mundo del desarrollo web ha comenzado con entusiasmo y determinación.
