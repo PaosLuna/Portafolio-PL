@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/Images/logo.png";
 
 const Header = () => {
@@ -9,12 +10,11 @@ const Header = () => {
       <nav className="w-full flex items-center justify-end">
         <div>
           <ul className="flex flex-row gap-10 p-2 pr-40 text-white font-mono uppercase text-xl cursor-pointer">
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Skills</li>
-            <li>Contact</li>
-            <li>Prueba</li>
+            <Link to="/">HOME</Link>
+            <Link to="/about-me">About me</Link>
+            <Link to="/projects">projects</Link>
+            <Link to="/skills">skills</Link>
+            <Link to="/contact">contact</Link>
           </ul>
         </div>
       </nav>
