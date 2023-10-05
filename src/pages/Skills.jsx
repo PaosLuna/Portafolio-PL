@@ -6,7 +6,7 @@ const Skills = () => {
     <div className="flex flex-col bg-black h-screen w-screen">
       <Header />
       <div className="flex justify-center mt-10">
-        <div className="flex flex-col justify-center items-center bg-[#F6229B] w-[40%] mt-5">
+        <div className="flex flex-col justify-center items-center bg-[#7f95e4d5] w-[40%] mt-5">
           <h1 className="text-black uppercase text-3xl font-mono font-extrabold pt-5">
             Tech skills
           </h1>
