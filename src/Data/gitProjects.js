@@ -2,7 +2,7 @@ export const misProyectos = [
   {
     id: 1,
     name: "Burguer Queen",
-    image: "src/assets/Images/burguerQueen.png",
+    image: "https://i.postimg.cc/L43bPfQC/burguer-Queen.png",
     description: "Plataforma dedicada a la gestión de pedidos de comida.",
     technologies: "REACT, JAVASCRIPT, JEST, GITHUB, HTML, CSS, FIGMA",
     link: "https://dev-007-burger-queen-api-client-beta.vercel.app/",
@@ -10,7 +10,7 @@ export const misProyectos = [
   {
     id: 2,
     name: "MountainMe",
-    image: "src/assets/Images/mountainMe.png",
+    image: "https://i.postimg.cc/hvDMsyZC/mountain-Me.png",
     description:
       "Red social dedicada a montañistas, senderistas y entusiastas de la naturaleza.",
     technologies: "HTML, CSS GRID, FIREBASE, JEST, JS, FIGMA, GITHUB",
@@ -19,7 +19,7 @@ export const misProyectos = [
   {
     id: 3,
     name: "Movie Challenge",
-    image: "src/assets/Images/movieChallenge.png",
+    image: "https://i.postimg.cc/kXhwNyQc/movie-Challenge.png",
     description:
       "Página web dedicada a proporcionar información sobre películas",
     technologies: "REACT, JAVASCRIPT, GITHUB, HTML, CSS, FIGMA, TAILWIND",
@@ -28,7 +28,7 @@ export const misProyectos = [
   {
     id: 4,
     name: "Md-Links",
-    image: "src/assets/Images/mdLinks.jpg",
+    image: "https://i.postimg.cc/52YgsFpM/mdLinks.jpg",
     description:
       "Biblioteca diseñada para la extracción y análisis de enlaces contenidos en una ruta específica.",
     technologies: "NODEJS, JAVASCRIPT, JEST, GITHUB, NPM, AXIOS",
@@ -37,7 +37,7 @@ export const misProyectos = [
   {
     id: 5,
     name: "Prompt to JSON",
-    image: "src/assets/Images/prompt.jpeg",
+    image: "https://i.postimg.cc/QdH4vz8w/prompt.jpg",
     description:
       "Aplicación que usa el encadenamiento de prompts para producir un resultado en formato JSON",
     technologies: "Flowise",
@@ -46,7 +46,7 @@ export const misProyectos = [
   {
     id: 6,
     name: "Chat with files",
-    image: "src/assets/Images/chatFiles.jpg",
+    image: "https://i.postimg.cc/Pr6V3Hj1/chat-Files.jpg",
     description:
       "Chatbot con la habilidad de contestar preguntas basadas en la información de un documento",
     technologies: "Flowise",
@@ -55,7 +55,7 @@ export const misProyectos = [
   {
     id: 7,
     name: "Data Lovers",
-    image: "src/assets/Images/dataLovers.png",
+    image: "https://i.postimg.cc/Nf0prnHF/data-Lovers.png",
     description:
       "Página web diseñada para presentar información sobre los personajes de la serie Rick and Morty.",
     technologies: "HTML, CSS FLEX, JEST, JS, FIGMA, GITHUB",
@@ -64,7 +64,7 @@ export const misProyectos = [
   {
     id: 8,
     name: "Card Validation",
-    image: "src/assets/Images/cardValidation.jpeg",
+    image: "https://i.postimg.cc/rw3nT9zm/card-Validation.jpg",
     description:
       "Validación de tarjetas bancarias, basado en el algoritmo de Luhn.",
     technologies: "HTML, CSS FLEX, JS, FIGMA, GITHUB",
