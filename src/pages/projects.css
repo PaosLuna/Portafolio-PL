@@ -1,0 +1,117 @@
+/*--------------------------------------------------------------ESTILO DE TARJETAS-----------------------------------------------------*/
+
+.tarjetaProyecto {
+  /* fondo tarjetas*/
+  background-color: #f6da229a;
+  width: 500px;
+  height: 400px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  border-radius: 20px;
+  perspective: 1000px;
+}
+
+.tarjetaProyecto:hover .cardCompleta {
+  /*sirve para que den vuelta*/
+  transform: rotateY(180deg);
+}
+
+.cardCompleta {
+  /*sirve para que den vuelta*/
+  width: 500px;
+  height: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 1000ms;
+}
+
+.tarjetaFrente {
+  /*sirve para que den vuelta*/
+  background-size: cover;
+  background-position: center;
+}
+
+.tarjetaFrente,
+.tarjetaAtras {
+  /*sirve para que den vuelta*/
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  border-radius: 20px;
+}
+
+.tarjetaAtras {
+  /*sirve para que den vuelta*/
+  transform: rotateY(180deg);
+  background: #000000;
+  padding: 20px;
+}
+
+.imagenTarjeta {
+  width: 490px;
+  height: 500px;
+  padding: 0 5px 5px 5px;
+  border-radius: 20px;
+}
+
+.bg {
+  /*sirve para que den vuelta*/
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.body_tarjetaFrente {
+  /*sirve para que den vuelta*/
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transform: translateZ(60px);
+  flex-direction: column;
+}
+
+.body_tarjetaAtras {
+  /*sirve para que den vuelta*/
+  width: 100%;
+  height: 100%;
+  padding: 50px 20px 20px 20px;
+  text-align: center;
+  transform: translateZ(60px);
+}
+
+.titulotarjetas {
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.titulotarjetas {
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.textotarjeta {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: monospace;
+}

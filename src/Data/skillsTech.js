@@ -55,4 +55,8 @@ export const frontendSkills = [
     name: "Scrum",
     icon: "https://pluralsight2.imgix.net/paths/images/scrum-a5c44d8364.png",
   },
+  {
+    name: "Flowise",
+    icon: "https://flowiseai.com/_next/static/images/flowise_logo_dark-6c1a356f4868d3deb7864323ff93a0fa.png",
+  },
 ];
