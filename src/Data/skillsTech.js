@@ -1,14 +1,14 @@
 export const frontendSkills = [
   {
     name: "HTML5",
-    icon: "https://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png",
+    icon: "https://www.cdnlogo.com/logos/h/84/html.svg",
   },
   {
     name: "CSS3",
     icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
   },
   {
-    name: "JavaScript (ES6+)",
+    name: "JavaScript",
     icon: "https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png",
   },
   {
@@ -25,7 +25,7 @@ export const frontendSkills = [
   },
   {
     name: "GitHub",
-    icon: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+    icon: "src/assets/Images/GitHub.png",
   },
   {
     name: "Jest",
