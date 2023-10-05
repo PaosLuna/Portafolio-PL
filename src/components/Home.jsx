@@ -1,6 +1,6 @@
 import logo from "../assets/Images/logo.png";
 import hola from "../assets/Images/hola.png";
-import FunButton from "./ButtonActive";
+import { FunButton } from "./ButtonActive";
 
 const Home = () => {
   return (

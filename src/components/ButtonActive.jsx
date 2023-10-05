@@ -1,7 +1,7 @@
 import "./buttonActive.css";
 import { Link } from "react-router-dom";
 
-const FunButton = () => {
+export const FunButton = () => {
   return (
     <div>
       <button className="buttonActive">
@@ -11,4 +11,10 @@ const FunButton = () => {
   );
 };
 
-export default FunButton;
+export const VisitButton = () => {
+  return (
+    <div>
+      <button className="visit-button">VISITAR</button>
+    </div>
+  );
+};

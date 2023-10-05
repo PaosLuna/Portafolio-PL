@@ -12,7 +12,7 @@ const Header = () => {
   }
 
   return (
-    <div className="flex flex-row w-screen bg-black">
+    <div className="flex flex-row max-w-full bg-black">
       <div className="w-28 p-2">
         <img src={logo} alt="Logo Paola Luna" className=" pl-10" />
       </div>
