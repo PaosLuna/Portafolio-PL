@@ -13,34 +13,48 @@ const Header = () => {
 
   return (
     <div className="flex flex-row max-w-full bg-black">
-      <div className="w-28 p-2">
-        <img src={logo} alt="Logo Paola Luna" className=" pl-10" />
+      <div className="p-2 w-20 lg:w-28 ">
+        <img
+          src={logo}
+          alt="Logo Paola Luna"
+          className="w-[100%] ml-2 mt-2 md:ml-10 md:mt-2 lg:pl-10 "
+        />
       </div>
-      <nav className="w-full flex items-center justify-end">
+      <nav className="w-full flex items-center justify-center md:justify-end">
         <div>
-          <ul className="flex flex-row gap-10 p-2 pr-20 text-white font-mono uppercase text-xl cursor-pointer">
-            <Link to="/">HOME</Link>
+          <ul className="flex flex-row text-white font-mono uppercase text-sm md:text-xl gap-2 md:gap-10 p-2 md:pr-20  cursor-pointer ">
+            <Link to="/" className="hover:text-[#f6229b]">
+              HOME
+            </Link>
             <Link
               to="/about-me"
-              className={`boton ${buttonActive("/about-me") ? "active" : ""} `}
+              className={`boton ${
+                buttonActive("/about-me") ? "active" : ""
+              } hover:text-[#f6229b]`}
             >
               About me
             </Link>
             <Link
               to="/projects"
-              className={`boton ${buttonActive("/projects") ? "active" : ""}`}
+              className={`boton ${
+                buttonActive("/projects") ? "active" : ""
+              } hover:text-[#f6229b]`}
             >
               projects
             </Link>
             <Link
               to="/skills"
-              className={`boton ${buttonActive("/skills") ? "active" : ""}`}
+              className={`boton ${
+                buttonActive("/skills") ? "active" : ""
+              } hover:text-[#f6229b]`}
             >
               skills
             </Link>
             <Link
               to="/contact"
-              className={`boton ${buttonActive("/contact") ? "active" : ""}`}
+              className={`boton ${
+                buttonActive("/contact") ? "active" : ""
+              } hover:text-[#f6229b]`}
             >
               contact
             </Link>
