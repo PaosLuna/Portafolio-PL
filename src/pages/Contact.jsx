@@ -5,8 +5,8 @@ const Contact = () => {
   return (
     <div className="flex flex-col bg-black min-h-screen max-w-full text-white pb-4">
       <Header />
-      <div className="flex ">
-        <div className="flex flex-col gap-20 w-[30%] ml-40 mt-28">
+      <div className="flex flex-col items-center lg:flex lg:flex-row">
+        <div className="flex flex-col gap-10 mt-5 lg:w-[30%] lg:ml-40 lg:mt-28 lg:gap-20">
           <a
             href="https://www.linkedin.com/in/paola-luna-frontend/"
             target="_blank"
