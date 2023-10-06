@@ -12,7 +12,7 @@ const Projects = () => {
         <img
           src={proyectos}
           alt="Mis proyectos"
-          className="h-auto w-[70%] lg:w-[40%] mt-10"
+          className="h-auto mt-5 w-[70%] lg:w-[40%] lg:mt-10"
         />
       </div>
       <div className="flex flex-wrap gap-10 max-w-full justify-center mt-8">
