@@ -3,10 +3,10 @@ import Header from "../components/Header";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col bg-black h-screen w-screen">
+    <div className="flex flex-col bg-black min-h-screen w-screen pb-5">
       <Header />
-      <div className="flex justify-center mt-20">
-        <div className="flex flex-col justify-center items-center bg-[#7f95e4d5] w-[75%] mt-5">
+      <div className="flex justify-center mt-2 md:mt-20">
+        <div className="flex flex-col justify-center items-center rounded-lg bg-[#7f95e4d5] w-[75%] mt-5">
           <h1 className="text-black uppercase text-3xl font-mono font-extrabold pt-5">
             Tech skills
           </h1>

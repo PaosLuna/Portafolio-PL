@@ -12,28 +12,28 @@ const FormEmail = () => {
 
   return (
     <div>
-      <div className="flex flex-col gap-10 mt-20 pr-20 items-center">
+      <div className="flex flex-col gap-5 md:mt-10 lg:mt-20 lg:pr-20 items-center">
         <img
           src={mail}
           alt="Contactame"
-          className="h-auto w-[70%] mt-10 mb-8"
+          className="h-auto w-[70%] mt-10 lg:mb-8"
         />
-        <p className="font-mono text-2xl text-center w-[75%]">
+        <p className="font-mono text-xl p-5 md:text-2xl text-center md:w-[80%] lg:w-[75%]">
           Estoy emocionada por la oportunidad de contribuir y aprender en tu
           equipo de desarrollo.
         </p>
       </div>
-      <div className="flex justify-center pr-20 pt-20">
+      <div className="flex justify-center mt-2 lg:pr-10 lg:pt-10 lg:mt-0">
         <textarea
           rows="4"
           cols="50"
           value="lunapp20@gmail.com"
           onChange={(e) => setTextToCopy(e.target.value)}
-          className="text-white w-72 max-h-12 bg-gray-800 flex text-center font-mono font-extrabold text-2xl pt-2"
+          className="text-white w-56 lg:w-72 max-h-12 bg-gray-800 flex text-center font-mono font-extrabold lg:text-2xl pt-2"
         ></textarea>
         <button
           onClick={handleCopyClick}
-          className="bg-gray-800 w-20 h-12 uppercase text-lg font-mono font-extrabold hover:bg-[#F6D922] hover:text-black"
+          className="bg-gray-800 w-20 h-12 uppercase lg:text-lg font-mono font-extrabold hover:bg-[#F6D922] hover:text-black"
         >
           Copiar
         </button>
