@@ -119,3 +119,41 @@
 .div-button-visit {
   margin-top: 20px;
 }
+
+/* Width máximo 767px */
+
+@media (max-width: 767px) {
+  .tarjetaProyecto {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .cardCompleta {
+    width: 350px;
+    height: 250px;
+  }
+
+  .tarjetaFrente,
+  .tarjetaAtras {
+    width: 100%;
+  }
+
+  .imagenTarjeta {
+    width: 95%;
+    height: 200px;
+    padding: 10px 10px 0px 10px;
+  }
+
+  .titulotarjetas {
+    font-size: 24px;
+  }
+
+  .textotarjeta {
+    font-size: 14px;
+  }
+
+  .div-button-visit {
+    margin-top: 10px;
+  }
+}
