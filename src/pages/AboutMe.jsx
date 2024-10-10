@@ -22,14 +22,14 @@ const AboutMe = () => {
               className="w-[280px] md:w-[400px] lg:w-[500px]"
             />
             <p className="text-white font-mono text-xl text-justify p-5 md:mt-8 lg:mt-5 lg:w-[90%] lg:p-10">
-              👩‍💻 Iniciando en el mundo IT, emocionada por aprender y mejorar
-              cada día. <br />
+              👩‍💻 Actualmente tengo más de un año de experiencia trabajando en
+              IT, emocionada por aprender y mejorar cada día. <br />
               <br /> 🗣️ Con un background en Comunicación, me encanta encontrar
               formas creativas de transmitir mensajes y construir interfaces
               amigables. <br />
               <br />
-              😄 Tengo un buen sentido del humor y creo que la risa es el mejor
-              metodo para tener un buen día. <br />
+              🥸 Soy muy organizada y fiel creyente de que la responsabilidad y
+              dedicación son la clave para alcanzar nuestros objetivos. <br />
               <br />
               🎵 Amante de la música, siempre encontrarás una playlist curada
               con cariño para inspirarme mientras desarrollo.

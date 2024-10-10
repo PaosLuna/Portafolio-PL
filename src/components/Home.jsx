@@ -19,9 +19,9 @@ const Home = () => {
           className="w-[70%] md:w-[50%] md:mt-10 lg:w-[60%]"
         />
         <p className="text-justify font-mono text-xl md:pl-10 md:pr-10 md:text-2xl lg:text-xl">
-          Soy una Front-End Developer recién salida del empaque, disfruto de
-          convertir ideas en código y ver cómo cobran vida en el navegador.
-          Siempre estoy ansiosa por aprender y crecer en este emocionante mundo.
+          Soy una Frontend Developer que disfruta de convertir ideas en código y
+          ver cómo cobran vida en el navegador. Siempre estoy ansiosa por
+          aprender y crecer en este emocionante mundo.
         </p>
         <p className="font-mono text-xl text-center md:text-2xl lg:text-xl lg:text-justify ">
           ¡Vamos a crear cosas asombrosas juntos! 🚀
