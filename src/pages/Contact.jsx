@@ -38,7 +38,7 @@ const Contact = () => {
             </button>
           </a>
           <a
-            href="https://drive.google.com/file/d/1JE0NgMQBXvS9_61l_6F_Z98izJwUwarJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1joWlZVIKYZQCvcS_tPY3sQj0VbGphr7K/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#7f95e4d5] w-60 h-20  rounded flex justify-between items-center p-5 transition-transform transform-origin-center hover:bg-[#F6D922] hover:scale-125 hover:text-black"

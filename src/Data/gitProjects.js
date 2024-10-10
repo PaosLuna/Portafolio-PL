@@ -1,6 +1,23 @@
 export const misProyectos = [
   {
+    id: 0,
+    name: "Portal empleados",
+    image: "https://i.postimg.cc/xdtccLJJ/Portal-para-empleados.png",
+    description: "Portal dedicado a la gestión de procesos administrativos.",
+    technologies: "ANGULAR, TYPESCRIPT, GITHUB, BOOTSTRAP, C#",
+    link: "https://portal.nomitek-onceweb.com/start",
+  },
+  {
     id: 1,
+    name: "Sistema ONCE",
+    image: "https://i.postimg.cc/85YB97S3/Sistema-ONCE.jpg",
+    description:
+      "Completa personalización de pantallas del sistema de nóminas.",
+    technologies: "JQUERY, AXES",
+    link: "https://www.nomitek.com.mx/sistema-once/",
+  },
+  {
+    id: 2,
     name: "Burguer Queen",
     image: "https://i.postimg.cc/L43bPfQC/burguer-Queen.png",
     description: "Plataforma dedicada a la gestión de pedidos de comida.",
@@ -8,7 +25,7 @@ export const misProyectos = [
     link: "https://dev-007-burger-queen-api-client-beta.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     name: "MountainMe",
     image: "https://i.postimg.cc/hvDMsyZC/mountain-Me.png",
     description:
@@ -17,7 +34,7 @@ export const misProyectos = [
     link: "https://dev-007-social-network.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Movie Challenge",
     image: "https://i.postimg.cc/kXhwNyQc/movie-Challenge.png",
     description:
@@ -26,7 +43,7 @@ export const misProyectos = [
     link: "https://github.com/PaosLuna/DEV005-movie-challenge-fw",
   },
   {
-    id: 4,
+    id: 5,
     name: "Md-Links",
     image: "https://i.postimg.cc/52YgsFpM/mdLinks.jpg",
     description:
@@ -35,7 +52,7 @@ export const misProyectos = [
     link: "https://www.npmjs.com/package/md-links-paos-luna",
   },
   {
-    id: 5,
+    id: 6,
     name: "Prompt to JSON",
     image: "https://i.postimg.cc/QdH4vz8w/prompt.jpg",
     description:
@@ -44,7 +61,7 @@ export const misProyectos = [
     link: "https://github.com/PaosLuna/UPSK-AI-APPS-001-prompt-to-json",
   },
   {
-    id: 6,
+    id: 7,
     name: "Chat with files",
     image: "https://i.postimg.cc/Pr6V3Hj1/chat-Files.jpg",
     description:
@@ -53,7 +70,7 @@ export const misProyectos = [
     link: "https://github.com/PaosLuna/UPSK-AI-APPS-001-chat-with-your-files",
   },
   {
-    id: 7,
+    id: 8,
     name: "Data Lovers",
     image: "https://i.postimg.cc/Nf0prnHF/data-Lovers.png",
     description:
@@ -62,7 +79,7 @@ export const misProyectos = [
     link: "https://paosluna.github.io/DEV007-data-lovers/",
   },
   {
-    id: 8,
+    id: 9,
     name: "Card Validation",
     image: "https://i.postimg.cc/rw3nT9zm/card-Validation.jpg",
     description:
